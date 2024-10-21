@@ -7,13 +7,13 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 07">
+    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rustlings-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.rustlings-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/07_structs/structs2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_structs/structs2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/08_enums/enums1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_enums/enums1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/08_enums/enums2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_enums/enums2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/08_enums/enums3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/08_enums/enums3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/09_strings/strings1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/09_strings/strings1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/09_strings/strings2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/09_strings/strings2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/09_strings/strings3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/09_strings/strings3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/09_strings/strings4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/09_strings/strings4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/09_strings/strings1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/09_strings/strings1.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,8 @@
     "Cargo.Run primitive_types2.executor": "Run",
     "Cargo.Run primitive_types3.executor": "Run",
     "Cargo.Run primitive_types5.executor": "Run",
+    "Cargo.Run strings1.executor": "Run",
+    "Cargo.Run strings2.executor": "Run",
     "Cargo.Run variables1.executor": "Run",
     "Cargo.Run variables2.executor": "Run",
     "Cargo.Run variables3.executor": "Run",
@@ -66,7 +68,9 @@
     "Cargo.Test move_semantics4::tests.executor": "Run",
     "Cargo.Test primitive_types4::tests.executor": "Run",
     "Cargo.Test quiz1::tests.executor": "Run",
+    "Cargo.Test strings3::tests.executor": "Run",
     "Cargo.Test structs1::tests.executor": "Run",
+    "Cargo.Test structs3::tests.executor": "Run",
     "Cargo.Test tests::indexing_tuple.executor": "Run",
     "Cargo.Test tests::slice_out_of_array.executor": "Run",
     "Cargo.Test tests::unit_structs.executor": "Run",
@@ -84,9 +88,9 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Test enums3::tests">
-    <configuration name="Run enums1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin enums1" />
+  <component name="RunManager" selected="Cargo.Test strings3::tests">
+    <configuration name="Run strings1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin strings1" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -102,8 +106,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run enums2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin enums2" />
+    <configuration name="Run strings2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin strings2" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -153,8 +157,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test structs1::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package exercises --bin structs1 tests" />
+    <configuration name="Test strings3::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin strings3 tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -170,8 +174,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test tests::unit_structs" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package exercises --bin structs1 tests::unit_structs -- --exact" />
+    <configuration name="Test structs3::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin structs3 tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -189,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test strings3::tests" />
+        <item itemvalue="Cargo.Run strings2" />
+        <item itemvalue="Cargo.Run strings1" />
+        <item itemvalue="Cargo.Test structs3::tests" />
         <item itemvalue="Cargo.Test enums3::tests" />
-        <item itemvalue="Cargo.Run enums2" />
-        <item itemvalue="Cargo.Run enums1" />
-        <item itemvalue="Cargo.Test structs1::tests" />
-        <item itemvalue="Cargo.Test tests::unit_structs" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +214,7 @@
       <updated>1729484938845</updated>
       <workItem from="1729484940643" duration="189000" />
       <workItem from="1729485196329" duration="62000" />
-      <workItem from="1729485259773" duration="3567000" />
+      <workItem from="1729485259773" duration="4386000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -292,7 +296,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729488351591</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: exercise 07">
+      <option name="closed" value="true" />
+      <created>1729489102164</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729489102164</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: exercise 08">
+      <option name="closed" value="true" />
+      <created>1729489115778</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729489115778</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +339,7 @@
     <MESSAGE value="feat: exercise 05" />
     <MESSAGE value="feat: exercise 06" />
     <MESSAGE value="feat: exercise 07" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 07" />
+    <MESSAGE value="feat: exercise 08" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 08" />
   </component>
 </project>
