@@ -7,13 +7,19 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 21">
+    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 22">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.rustlings-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.rustlings-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/22_clippy/clippy1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/22_clippy/clippy1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/22_clippy/clippy2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/22_clippy/clippy2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/22_clippy/clippy3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/22_clippy/clippy3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/22_clippy/clippy1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/22_clippy/clippy1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/22_clippy/clippy2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/22_clippy/clippy2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/23_conversions/as_ref_mut.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/23_conversions/as_ref_mut.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/23_conversions/from_into.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/23_conversions/from_into.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/23_conversions/from_str.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/23_conversions/from_str.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/23_conversions/try_from_into.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/23_conversions/try_from_into.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/23_conversions/using_as.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/23_conversions/using_as.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/23_conversions/as_ref_mut.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/23_conversions/as_ref_mut.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/23_conversions/from_into.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/23_conversions/from_into.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/23_conversions/from_str.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/23_conversions/from_str.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/23_conversions/try_from_into.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/23_conversions/try_from_into.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/23_conversions/using_as.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/23_conversions/using_as.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,113 +40,114 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cargo.Build `Run errors3`.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Build `Run macros4`.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Build `Test hashmaps3::tests`.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Build `Test iterators2::tests`.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run arc1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run box1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run clippy1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run enums1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run enums2.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run errors3.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run errors5.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run functions1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run functions2.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run functions3.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run functions4.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run functions5.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run generics1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run intro1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run intro2.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run iterators2.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run lifetimes2.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run lifetimes3.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run macros3.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run macros4.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run modules3.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run move_semantics5.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run options3.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run primitive_types1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run primitive_types2.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run primitive_types3.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run primitive_types5.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run strings1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run strings2.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run strings4.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run threads1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run threads2.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run traits1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run variables1.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run variables2.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run variables3.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run variables4.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run variables5.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Run variables6.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test box1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test cow1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test enums3::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test errors1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test errors2::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test errors4::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test errors6::test.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test generics2::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test hashmaps1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test hashmaps2::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test hashmaps3::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test if1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test if2::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test if3::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test iterators1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test iterators2::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test iterators3::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test iterators4::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test iterators5::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test lifetimes1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test move_semantics1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test move_semantics2::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test move_semantics3::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test move_semantics4::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test options1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test options2::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test primitive_types4::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test quiz1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test quiz2::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test quiz3::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test rc1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test strings3::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test structs1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test structs3::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test tests3::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test tests::indexing_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test tests::reference_no_mutation.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test tests::slice_out_of_array.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test tests::unit_structs.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test tests::you_can_assert.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test tests::you_can_assert_eq.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test threads3::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test traits1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test traits2::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test traits3::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test traits4::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test traits5::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test vecs1::tests.executor&quot;: &quot;Run&quot;,
-    &quot;Cargo.Test vecs2::tests.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
-    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cargo.Build `Run errors3`.executor": "Run",
+    "Cargo.Build `Run macros4`.executor": "Run",
+    "Cargo.Build `Test hashmaps3::tests`.executor": "Run",
+    "Cargo.Build `Test iterators2::tests`.executor": "Run",
+    "Cargo.Run arc1.executor": "Run",
+    "Cargo.Run box1.executor": "Run",
+    "Cargo.Run clippy1.executor": "Run",
+    "Cargo.Run enums1.executor": "Run",
+    "Cargo.Run enums2.executor": "Run",
+    "Cargo.Run errors3.executor": "Run",
+    "Cargo.Run errors5.executor": "Run",
+    "Cargo.Run functions1.executor": "Run",
+    "Cargo.Run functions2.executor": "Run",
+    "Cargo.Run functions3.executor": "Run",
+    "Cargo.Run functions4.executor": "Run",
+    "Cargo.Run functions5.executor": "Run",
+    "Cargo.Run generics1.executor": "Run",
+    "Cargo.Run intro1.executor": "Run",
+    "Cargo.Run intro2.executor": "Run",
+    "Cargo.Run iterators2.executor": "Run",
+    "Cargo.Run lifetimes2.executor": "Run",
+    "Cargo.Run lifetimes3.executor": "Run",
+    "Cargo.Run macros3.executor": "Run",
+    "Cargo.Run macros4.executor": "Run",
+    "Cargo.Run modules3.executor": "Run",
+    "Cargo.Run move_semantics5.executor": "Run",
+    "Cargo.Run options3.executor": "Run",
+    "Cargo.Run primitive_types1.executor": "Run",
+    "Cargo.Run primitive_types2.executor": "Run",
+    "Cargo.Run primitive_types3.executor": "Run",
+    "Cargo.Run primitive_types5.executor": "Run",
+    "Cargo.Run strings1.executor": "Run",
+    "Cargo.Run strings2.executor": "Run",
+    "Cargo.Run strings4.executor": "Run",
+    "Cargo.Run threads1.executor": "Run",
+    "Cargo.Run threads2.executor": "Run",
+    "Cargo.Run traits1.executor": "Run",
+    "Cargo.Run variables1.executor": "Run",
+    "Cargo.Run variables2.executor": "Run",
+    "Cargo.Run variables3.executor": "Run",
+    "Cargo.Run variables4.executor": "Run",
+    "Cargo.Run variables5.executor": "Run",
+    "Cargo.Run variables6.executor": "Run",
+    "Cargo.Test box1::tests.executor": "Run",
+    "Cargo.Test cow1::tests.executor": "Run",
+    "Cargo.Test enums3::tests.executor": "Run",
+    "Cargo.Test errors1::tests.executor": "Run",
+    "Cargo.Test errors2::tests.executor": "Run",
+    "Cargo.Test errors4::tests.executor": "Run",
+    "Cargo.Test errors6::test.executor": "Run",
+    "Cargo.Test from_into::tests.executor": "Run",
+    "Cargo.Test generics2::tests.executor": "Run",
+    "Cargo.Test hashmaps1::tests.executor": "Run",
+    "Cargo.Test hashmaps2::tests.executor": "Run",
+    "Cargo.Test hashmaps3::tests.executor": "Run",
+    "Cargo.Test if1::tests.executor": "Run",
+    "Cargo.Test if2::tests.executor": "Run",
+    "Cargo.Test if3::tests.executor": "Run",
+    "Cargo.Test iterators1::tests.executor": "Run",
+    "Cargo.Test iterators2::tests.executor": "Run",
+    "Cargo.Test iterators3::tests.executor": "Run",
+    "Cargo.Test iterators4::tests.executor": "Run",
+    "Cargo.Test iterators5::tests.executor": "Run",
+    "Cargo.Test lifetimes1::tests.executor": "Run",
+    "Cargo.Test move_semantics1::tests.executor": "Run",
+    "Cargo.Test move_semantics2::tests.executor": "Run",
+    "Cargo.Test move_semantics3::tests.executor": "Run",
+    "Cargo.Test move_semantics4::tests.executor": "Run",
+    "Cargo.Test options1::tests.executor": "Run",
+    "Cargo.Test options2::tests.executor": "Run",
+    "Cargo.Test primitive_types4::tests.executor": "Run",
+    "Cargo.Test quiz1::tests.executor": "Run",
+    "Cargo.Test quiz2::tests.executor": "Run",
+    "Cargo.Test quiz3::tests.executor": "Run",
+    "Cargo.Test rc1::tests.executor": "Run",
+    "Cargo.Test strings3::tests.executor": "Run",
+    "Cargo.Test structs1::tests.executor": "Run",
+    "Cargo.Test structs3::tests.executor": "Run",
+    "Cargo.Test tests3::tests.executor": "Run",
+    "Cargo.Test tests::indexing_tuple.executor": "Run",
+    "Cargo.Test tests::reference_no_mutation.executor": "Run",
+    "Cargo.Test tests::slice_out_of_array.executor": "Run",
+    "Cargo.Test tests::unit_structs.executor": "Run",
+    "Cargo.Test tests::you_can_assert.executor": "Run",
+    "Cargo.Test tests::you_can_assert_eq.executor": "Run",
+    "Cargo.Test threads3::tests.executor": "Run",
+    "Cargo.Test traits1::tests.executor": "Run",
+    "Cargo.Test traits2::tests.executor": "Run",
+    "Cargo.Test traits3::tests.executor": "Run",
+    "Cargo.Test traits4::tests.executor": "Run",
+    "Cargo.Test traits5::tests.executor": "Run",
+    "Cargo.Test vecs1::tests.executor": "Run",
+    "Cargo.Test vecs2::tests.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
-  <component name="RunManager" selected="Cargo.Run clippy1">
+}]]></component>
+  <component name="RunManager" selected="Cargo.Test from_into::tests">
     <configuration name="Run clippy1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package exercises --bin clippy1" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -192,8 +199,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run threads2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin threads2" />
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --package rustlings --bin rustlings" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -209,8 +216,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run --package rustlings --bin rustlings" />
+    <configuration name="Test from_into::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin from_into tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -245,11 +252,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Test from_into::tests" />
         <item itemvalue="Cargo.Run clippy1" />
         <item itemvalue="Cargo.Run macros4" />
         <item itemvalue="Cargo.Run macros3" />
         <item itemvalue="Cargo.Test threads3::tests" />
-        <item itemvalue="Cargo.Run threads2" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +273,7 @@
       <updated>1729484938845</updated>
       <workItem from="1729484940643" duration="189000" />
       <workItem from="1729485196329" duration="62000" />
-      <workItem from="1729485259773" duration="18244000" />
+      <workItem from="1729485259773" duration="19550000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -492,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729513207935</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="feat: exercise 22">
+      <option name="closed" value="true" />
+      <created>1729513789212</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1729513789212</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,7 +525,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init commit" />
     <MESSAGE value="feat: intro2" />
     <MESSAGE value="feat: exercise 01" />
     <MESSAGE value="feat: exercise 02" />
@@ -535,6 +549,7 @@
     <MESSAGE value="feat: exercise 19" />
     <MESSAGE value="feat: exercise 20" />
     <MESSAGE value="feat: exercise 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 21" />
+    <MESSAGE value="feat: exercise 22" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 22" />
   </component>
 </project>
