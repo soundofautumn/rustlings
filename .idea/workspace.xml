@@ -7,7 +7,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 05" />
+    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 06">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/07_structs/structs1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/07_structs/structs1.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +39,7 @@
     "Cargo.Run functions5.executor": "Run",
     "Cargo.Run intro1.executor": "Run",
     "Cargo.Run intro2.executor": "Run",
+    "Cargo.Run move_semantics5.executor": "Run",
     "Cargo.Run primitive_types1.executor": "Run",
     "Cargo.Run primitive_types2.executor": "Run",
     "Cargo.Run primitive_types3.executor": "Run",
@@ -49,6 +53,10 @@
     "Cargo.Test if1::tests.executor": "Run",
     "Cargo.Test if2::tests.executor": "Run",
     "Cargo.Test if3::tests.executor": "Run",
+    "Cargo.Test move_semantics1::tests.executor": "Run",
+    "Cargo.Test move_semantics2::tests.executor": "Run",
+    "Cargo.Test move_semantics3::tests.executor": "Run",
+    "Cargo.Test move_semantics4::tests.executor": "Run",
     "Cargo.Test primitive_types4::tests.executor": "Run",
     "Cargo.Test quiz1::tests.executor": "Run",
     "Cargo.Test tests::indexing_tuple.executor": "Run",
@@ -67,9 +75,9 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Test vecs2::tests">
-    <configuration name="Run primitive_types5" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin primitive_types5" />
+  <component name="RunManager" selected="Cargo.Run move_semantics5">
+    <configuration name="Run move_semantics5" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin move_semantics5" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -102,8 +110,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test quiz1::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package exercises --bin quiz1 tests" />
+    <configuration name="Test move_semantics1::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin move_semantics1 tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -119,8 +127,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test tests::indexing_tuple" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package exercises --bin primitive_types6 tests::indexing_tuple -- --exact" />
+    <configuration name="Test move_semantics2::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin move_semantics2 tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -136,8 +144,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test vecs1::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package exercises --bin vecs1 tests" />
+    <configuration name="Test move_semantics3::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin move_semantics3 tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -153,8 +161,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test vecs2::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package exercises --bin vecs2 tests" />
+    <configuration name="Test move_semantics4::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin move_semantics4 tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -172,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Test vecs2::tests" />
-        <item itemvalue="Cargo.Test vecs1::tests" />
-        <item itemvalue="Cargo.Test quiz1::tests" />
-        <item itemvalue="Cargo.Test tests::indexing_tuple" />
-        <item itemvalue="Cargo.Run primitive_types5" />
+        <item itemvalue="Cargo.Run move_semantics5" />
+        <item itemvalue="Cargo.Test move_semantics4::tests" />
+        <item itemvalue="Cargo.Test move_semantics3::tests" />
+        <item itemvalue="Cargo.Test move_semantics2::tests" />
+        <item itemvalue="Cargo.Test move_semantics1::tests" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +201,7 @@
       <updated>1729484938845</updated>
       <workItem from="1729484940643" duration="189000" />
       <workItem from="1729485196329" duration="62000" />
-      <workItem from="1729485259773" duration="2141000" />
+      <workItem from="1729485259773" duration="2994000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -259,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729487380379</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: exercise 06">
+      <option name="closed" value="true" />
+      <created>1729487861060</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729487861060</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +300,7 @@
     <MESSAGE value="feat: exercise 03" />
     <MESSAGE value="feat: exercise 04 and quiz 1" />
     <MESSAGE value="feat: exercise 05" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 05" />
+    <MESSAGE value="feat: exercise 06" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 06" />
   </component>
 </project>
