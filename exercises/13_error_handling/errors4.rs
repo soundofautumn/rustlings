@@ -1,3 +1,5 @@
+use crate::CreationError::{Negative, Zero};
+
 #[derive(PartialEq, Debug)]
 enum CreationError {
     Negative,
@@ -10,7 +12,13 @@ struct PositiveNonzeroInteger(u64);
 impl PositiveNonzeroInteger {
     fn new(value: i64) -> Result<Self, CreationError> {
         // TODO: This function shouldn't always return an `Ok`.
-        Ok(Self(value as u64))
+        if value < 0 {
+            Err(Negative)
+        } else if value == 0 {
+            Err(Zero)
+        } else {
+            Ok(Self(value as u64))
+        }
     }
 }
 
