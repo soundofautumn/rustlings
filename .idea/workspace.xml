@@ -7,17 +7,9 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 17">
+    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 18">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rustlings-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.rustlings-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/18_iterators/iterators1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/18_iterators/iterators1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/18_iterators/iterators2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/18_iterators/iterators2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/18_iterators/iterators3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/18_iterators/iterators3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/18_iterators/iterators4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/18_iterators/iterators4.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/18_iterators/iterators1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/18_iterators/iterators1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/18_iterators/iterators2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/18_iterators/iterators2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/18_iterators/iterators3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/18_iterators/iterators3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/18_iterators/iterators4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/18_iterators/iterators4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/19_smart_pointers/arc1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/19_smart_pointers/arc1.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +35,7 @@
     "Cargo.Build `Run errors3`.executor": "Run",
     "Cargo.Build `Test hashmaps3::tests`.executor": "Run",
     "Cargo.Build `Test iterators2::tests`.executor": "Run",
+    "Cargo.Run arc1.executor": "Run",
     "Cargo.Run enums1.executor": "Run",
     "Cargo.Run enums2.executor": "Run",
     "Cargo.Run errors3.executor": "Run",
@@ -91,6 +84,7 @@
     "Cargo.Test iterators2::tests.executor": "Run",
     "Cargo.Test iterators3::tests.executor": "Run",
     "Cargo.Test iterators4::tests.executor": "Run",
+    "Cargo.Test iterators5::tests.executor": "Run",
     "Cargo.Test lifetimes1::tests.executor": "Run",
     "Cargo.Test move_semantics1::tests.executor": "Run",
     "Cargo.Test move_semantics2::tests.executor": "Run",
@@ -130,9 +124,9 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Test iterators4::tests">
-    <configuration name="Run iterators2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin iterators2" />
+  <component name="RunManager" selected="Cargo.Run arc1">
+    <configuration name="Run arc1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin arc1" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -150,23 +144,6 @@
     </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --package rustlings --bin rustlings" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test iterators1::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package exercises --bin iterators1 tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -233,13 +210,30 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test iterators5::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin iterators5 tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run arc1" />
+        <item itemvalue="Cargo.Test iterators5::tests" />
         <item itemvalue="Cargo.Test iterators4::tests" />
         <item itemvalue="Cargo.Test iterators3::tests" />
         <item itemvalue="Cargo.Test iterators2::tests" />
-        <item itemvalue="Cargo.Run iterators2" />
-        <item itemvalue="Cargo.Test iterators1::tests" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +250,7 @@
       <updated>1729484938845</updated>
       <workItem from="1729484940643" duration="189000" />
       <workItem from="1729485196329" duration="62000" />
-      <workItem from="1729485259773" duration="15127000" />
+      <workItem from="1729485259773" duration="15557000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -450,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729509260204</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat: exercise 18">
+      <option name="closed" value="true" />
+      <created>1729510912795</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1729510912795</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,6 +491,7 @@
     <MESSAGE value="feat: quiz 3" />
     <MESSAGE value="feat: exercise 16" />
     <MESSAGE value="feat: exercise 17" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 17" />
+    <MESSAGE value="feat: exercise 18" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 18" />
   </component>
 </project>
