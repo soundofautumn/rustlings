@@ -7,11 +7,12 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 13">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/14_generics/generics1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/14_generics/generics1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/14_generics/generics2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/14_generics/generics2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/14_generics/generics1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/14_generics/generics1.rs" afterDir="false" />
+    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 14">
+      <change beforePath="$PROJECT_DIR$/exercises/15_traits/traits1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/15_traits/traits1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/15_traits/traits2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/15_traits/traits2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/15_traits/traits3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/15_traits/traits3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/15_traits/traits4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/15_traits/traits4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/15_traits/traits1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/15_traits/traits1.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,7 @@
     "Cargo.Run strings1.executor": "Run",
     "Cargo.Run strings2.executor": "Run",
     "Cargo.Run strings4.executor": "Run",
+    "Cargo.Run traits1.executor": "Run",
     "Cargo.Run variables1.executor": "Run",
     "Cargo.Run variables2.executor": "Run",
     "Cargo.Run variables3.executor": "Run",
@@ -69,6 +71,7 @@
     "Cargo.Test errors2::tests.executor": "Run",
     "Cargo.Test errors4::tests.executor": "Run",
     "Cargo.Test errors6::test.executor": "Run",
+    "Cargo.Test generics2::tests.executor": "Run",
     "Cargo.Test hashmaps1::tests.executor": "Run",
     "Cargo.Test hashmaps2::tests.executor": "Run",
     "Cargo.Test hashmaps3::tests.executor": "Run",
@@ -90,6 +93,9 @@
     "Cargo.Test tests::indexing_tuple.executor": "Run",
     "Cargo.Test tests::slice_out_of_array.executor": "Run",
     "Cargo.Test tests::unit_structs.executor": "Run",
+    "Cargo.Test traits1::tests.executor": "Run",
+    "Cargo.Test traits2::tests.executor": "Run",
+    "Cargo.Test traits3::tests.executor": "Run",
     "Cargo.Test vecs1::tests.executor": "Run",
     "Cargo.Test vecs2::tests.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -104,43 +110,9 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Run generics1">
-    <configuration name="Run errors3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin errors3" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run errors5" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin errors5" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run generics1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin generics1" />
+  <component name="RunManager" selected="Cargo.Test traits4::tests">
+    <configuration name="Run traits1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin traits1" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -173,8 +145,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test errors4::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package exercises --bin errors4 tests" />
+    <configuration name="Test traits1::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin traits1 tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -190,8 +162,42 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test errors6::test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="test --package exercises --bin errors6 test" />
+    <configuration name="Test traits2::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin traits2 tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test traits3::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin traits3 tests" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test traits4::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package exercises --bin traits4 tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -209,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run generics1" />
-        <item itemvalue="Cargo.Test errors6::test" />
-        <item itemvalue="Cargo.Run errors5" />
-        <item itemvalue="Cargo.Test errors4::tests" />
-        <item itemvalue="Cargo.Run errors3" />
+        <item itemvalue="Cargo.Test traits4::tests" />
+        <item itemvalue="Cargo.Test traits3::tests" />
+        <item itemvalue="Cargo.Test traits2::tests" />
+        <item itemvalue="Cargo.Run traits1" />
+        <item itemvalue="Cargo.Test traits1::tests" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +236,7 @@
       <updated>1729484938845</updated>
       <workItem from="1729484940643" duration="189000" />
       <workItem from="1729485196329" duration="62000" />
-      <workItem from="1729485259773" duration="11305000" />
+      <workItem from="1729485259773" duration="12095000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -376,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729504371594</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat: exercise 14">
+      <option name="closed" value="true" />
+      <created>1729506452710</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1729506452710</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +424,7 @@
     <MESSAGE value="feat: exercise 12" />
     <MESSAGE value="feat: exercise 12 and quiz 2" />
     <MESSAGE value="feat: exercise 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 13" />
+    <MESSAGE value="feat: exercise 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 14" />
   </component>
 </project>
