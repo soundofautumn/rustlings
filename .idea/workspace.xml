@@ -7,23 +7,8 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 01">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_functions/functions1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_functions/functions1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_functions/functions2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_functions/functions2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_functions/functions3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_functions/functions3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/02_functions/functions4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_functions/functions4.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/00_intro/intro1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/00_intro/intro1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/00_intro/intro2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/00_intro/intro2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables3.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables4.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables5.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables6.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables6.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/02_functions/functions1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/02_functions/functions1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/02_functions/functions2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/02_functions/functions2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/02_functions/functions3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/02_functions/functions3.rs" afterDir="false" />
+    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 02">
+      <change beforePath="$PROJECT_DIR$/exercises/03_if/if1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/03_if/if1.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +34,8 @@
     "Cargo.Run functions1.executor": "Run",
     "Cargo.Run functions2.executor": "Run",
     "Cargo.Run functions3.executor": "Run",
+    "Cargo.Run functions4.executor": "Run",
+    "Cargo.Run functions5.executor": "Run",
     "Cargo.Run intro1.executor": "Run",
     "Cargo.Run intro2.executor": "Run",
     "Cargo.Run variables1.executor": "Run",
@@ -69,7 +56,7 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Run functions3">
+  <component name="RunManager" selected="Cargo.Run functions5">
     <configuration name="Run functions1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package exercises --bin functions1" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -121,8 +108,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run variables5" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin variables5" />
+    <configuration name="Run functions4" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin functions4" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -138,8 +125,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run variables6" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin variables6" />
+    <configuration name="Run functions5" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin functions5" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -174,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run functions5" />
+        <item itemvalue="Cargo.Run functions4" />
         <item itemvalue="Cargo.Run functions3" />
         <item itemvalue="Cargo.Run functions2" />
         <item itemvalue="Cargo.Run functions1" />
-        <item itemvalue="Cargo.Run variables6" />
-        <item itemvalue="Cargo.Run variables5" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +182,7 @@
       <updated>1729484938845</updated>
       <workItem from="1729484940643" duration="189000" />
       <workItem from="1729485196329" duration="62000" />
-      <workItem from="1729485259773" duration="724000" />
+      <workItem from="1729485259773" duration="875000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -229,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729485917037</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: exercise 02">
+      <option name="closed" value="true" />
+      <created>1729486049796</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729486049796</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +245,7 @@
     <MESSAGE value="init commit" />
     <MESSAGE value="feat: intro2" />
     <MESSAGE value="feat: exercise 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 01" />
+    <MESSAGE value="feat: exercise 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 02" />
   </component>
 </project>
