@@ -7,13 +7,13 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 19">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 21">
       <change beforePath="$PROJECT_DIR$/.rustlings-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.rustlings-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/20_threads/threads1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/20_threads/threads1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/20_threads/threads2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/20_threads/threads2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/20_threads/threads1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/20_threads/threads1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/20_threads/threads2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/20_threads/threads2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/22_clippy/clippy1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/22_clippy/clippy1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/22_clippy/clippy2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/22_clippy/clippy2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/22_clippy/clippy3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/22_clippy/clippy3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/22_clippy/clippy1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/22_clippy/clippy1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/22_clippy/clippy2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/22_clippy/clippy2.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +37,12 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Cargo.Build `Run errors3`.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Build `Run macros4`.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Build `Test hashmaps3::tests`.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Build `Test iterators2::tests`.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run arc1.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run box1.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run clippy1.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run enums1.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run enums2.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run errors3.executor&quot;: &quot;Run&quot;,
@@ -56,6 +58,8 @@
     &quot;Cargo.Run iterators2.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run lifetimes2.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run lifetimes3.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run macros3.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.Run macros4.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run modules3.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run move_semantics5.executor&quot;: &quot;Run&quot;,
     &quot;Cargo.Run options3.executor&quot;: &quot;Run&quot;,
@@ -136,7 +140,24 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cargo.Run macros4">
+  <component name="RunManager" selected="Cargo.Run clippy1">
+    <configuration name="Run clippy1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin clippy1" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run macros3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package exercises --bin macros3" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -156,23 +177,6 @@
     </configuration>
     <configuration name="Run macros4" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package exercises --bin macros4" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Run threads1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin threads1" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -241,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cargo.Run clippy1" />
         <item itemvalue="Cargo.Run macros4" />
         <item itemvalue="Cargo.Run macros3" />
         <item itemvalue="Cargo.Test threads3::tests" />
         <item itemvalue="Cargo.Run threads2" />
-        <item itemvalue="Cargo.Run threads1" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +266,7 @@
       <updated>1729484938845</updated>
       <workItem from="1729484940643" duration="189000" />
       <workItem from="1729485196329" duration="62000" />
-      <workItem from="1729485259773" duration="17405000" />
+      <workItem from="1729485259773" duration="18244000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -472,7 +476,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729511670699</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat: exercise 20">
+      <option name="closed" value="true" />
+      <created>1729513037777</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1729513037777</updated>
+    </task>
+    <task id="LOCAL-00028" summary="feat: exercise 21">
+      <option name="closed" value="true" />
+      <created>1729513207935</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1729513207935</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,6 +533,8 @@
     <MESSAGE value="feat: exercise 17" />
     <MESSAGE value="feat: exercise 18" />
     <MESSAGE value="feat: exercise 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 19" />
+    <MESSAGE value="feat: exercise 20" />
+    <MESSAGE value="feat: exercise 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 21" />
   </component>
 </project>
