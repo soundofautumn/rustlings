@@ -7,8 +7,23 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: intro2">
-      <change beforePath="$PROJECT_DIR$/exercises/01_variables/variables1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/01_variables/variables1.rs" afterDir="false" />
+    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 01">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_functions/functions1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_functions/functions1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_functions/functions2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_functions/functions2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_functions/functions3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_functions/functions3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/02_functions/functions4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/02_functions/functions4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/00_intro/intro1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/00_intro/intro1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/00_intro/intro2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/00_intro/intro2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables5.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/01_variables/variables6.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/01_variables/variables6.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/02_functions/functions1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/02_functions/functions1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/02_functions/functions2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/02_functions/functions2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/02_functions/functions3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/02_functions/functions3.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +46,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Cargo.Run functions1.executor": "Run",
+    "Cargo.Run functions2.executor": "Run",
+    "Cargo.Run functions3.executor": "Run",
     "Cargo.Run intro1.executor": "Run",
     "Cargo.Run intro2.executor": "Run",
+    "Cargo.Run variables1.executor": "Run",
+    "Cargo.Run variables2.executor": "Run",
+    "Cargo.Run variables3.executor": "Run",
+    "Cargo.Run variables4.executor": "Run",
+    "Cargo.Run variables5.executor": "Run",
+    "Cargo.Run variables6.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
     "git-widget-placeholder": "main",
@@ -45,9 +69,9 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Run variables4">
-    <configuration name="Run intro2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin intro2" />
+  <component name="RunManager" selected="Cargo.Run functions3">
+    <configuration name="Run functions1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin functions1" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -63,8 +87,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run variables1" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin variables1" />
+    <configuration name="Run functions2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin functions2" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -80,8 +104,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run variables2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin variables2" />
+    <configuration name="Run functions3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin functions3" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -97,8 +121,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run variables3" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin variables3" />
+    <configuration name="Run variables5" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin variables5" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -114,8 +138,8 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run variables4" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="command" value="run --package exercises --bin variables4" />
+    <configuration name="Run variables6" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package exercises --bin variables6" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -150,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Run variables4" />
-        <item itemvalue="Cargo.Run variables3" />
-        <item itemvalue="Cargo.Run variables2" />
-        <item itemvalue="Cargo.Run variables1" />
-        <item itemvalue="Cargo.Run intro2" />
+        <item itemvalue="Cargo.Run functions3" />
+        <item itemvalue="Cargo.Run functions2" />
+        <item itemvalue="Cargo.Run functions1" />
+        <item itemvalue="Cargo.Run variables6" />
+        <item itemvalue="Cargo.Run variables5" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +195,7 @@
       <updated>1729484938845</updated>
       <workItem from="1729484940643" duration="189000" />
       <workItem from="1729485196329" duration="62000" />
-      <workItem from="1729485259773" duration="305000" />
+      <workItem from="1729485259773" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -189,15 +213,43 @@
       <option name="project" value="LOCAL" />
       <updated>1729485511534</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: exercise 01">
+      <option name="closed" value="true" />
+      <created>1729485720031</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729485720031</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: exercise 01">
+      <option name="closed" value="true" />
+      <created>1729485917037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729485917037</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="feat: intro2" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: intro2" />
+    <MESSAGE value="feat: exercise 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 01" />
   </component>
 </project>
