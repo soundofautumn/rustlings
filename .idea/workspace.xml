@@ -7,19 +7,8 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 22">
+    <list default="true" id="1fbe2df6-5f56-4cc0-972c-553ef12af44a" name="Changes" comment="feat: exercise 23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.rustlings-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.rustlings-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/23_conversions/as_ref_mut.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/23_conversions/as_ref_mut.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/23_conversions/from_into.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/23_conversions/from_into.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/23_conversions/from_str.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/23_conversions/from_str.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/23_conversions/try_from_into.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/23_conversions/try_from_into.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/23_conversions/using_as.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/23_conversions/using_as.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/23_conversions/as_ref_mut.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/23_conversions/as_ref_mut.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/23_conversions/from_into.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/23_conversions/from_into.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/23_conversions/from_str.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/23_conversions/from_str.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/23_conversions/try_from_into.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/23_conversions/try_from_into.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/23_conversions/using_as.rs" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/23_conversions/using_as.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +262,7 @@
       <updated>1729484938845</updated>
       <workItem from="1729484940643" duration="189000" />
       <workItem from="1729485196329" duration="62000" />
-      <workItem from="1729485259773" duration="19550000" />
+      <workItem from="1729485259773" duration="23726000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -507,7 +496,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729513789212</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="feat: exercise 23">
+      <option name="closed" value="true" />
+      <created>1729515103629</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1729515103629</updated>
+    </task>
+    <task id="LOCAL-00031" summary="feat: exercise 23">
+      <option name="closed" value="true" />
+      <created>1729515156013</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1729515156013</updated>
+    </task>
+    <task id="LOCAL-00032" summary="feat: exercise 23">
+      <option name="closed" value="true" />
+      <created>1729516970818</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1729516970818</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +538,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: intro2" />
     <MESSAGE value="feat: exercise 01" />
     <MESSAGE value="feat: exercise 02" />
     <MESSAGE value="feat: exercise 03" />
@@ -550,6 +562,7 @@
     <MESSAGE value="feat: exercise 20" />
     <MESSAGE value="feat: exercise 21" />
     <MESSAGE value="feat: exercise 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 22" />
+    <MESSAGE value="feat: exercise 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: exercise 23" />
   </component>
 </project>
